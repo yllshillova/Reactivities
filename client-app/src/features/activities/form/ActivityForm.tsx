@@ -11,7 +11,7 @@ import MyTextArea from "./MyTextArea";
 import MySelectInput from "./MySelectInput";
 import { categoryOptions } from "../../../app/common/options/categoryOptions";
 import MyDateInput from "./MyDateInput";
-import { Activity, ActivityFormValues } from "../../../app/models/activity";
+import { ActivityFormValues } from "../../../app/models/activity";
 import { v4 as uuid } from "uuid";
 
 export default observer(function ActivityForm() {
